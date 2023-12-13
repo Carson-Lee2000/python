@@ -1,6 +1,8 @@
-print("hello")
-print(2 + 3)
+# python中注释使用'#'表示
+a = 4
+b = 5
+print(a + b)
 
-print("hello" + ' world')
-
-print("test")
+msg = "hello"
+msg2 = 'world'
+print(msg + " " + msg2)
