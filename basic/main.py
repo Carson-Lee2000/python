@@ -1,8 +1,10 @@
-# python中注释使用'#'表示
-a = 4
-b = 5
-print(a + b)
+import math
 
-msg = "hello"
-msg2 = 'world'
-print(msg + " " + msg2)
+username = input("please input name: ")
+print("username is " + username)
+
+# BMI = weight / (height ** 2)
+weight = input("please input weight: ")
+height = input("please input height: ")
+
+print("your BMI is " + str(float(weight) / math.pow(float(height), 2)))
